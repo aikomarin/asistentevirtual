@@ -1,37 +1,34 @@
 # Asistente Virtual en Python
 
-Asistente virtual por voz desarrollado en Python que permite ejecutar distintas acciones mediante comandos hablados.
+![Demo](asistente.png)
+
+Asistente por voz desarrollado en Python que interpreta comandos hablados y ejecuta acciones en tiempo real.
+
+---
 
 ## Funcionalidades
 
-- Reconocimiento de voz
-- Síntesis de voz
-- Búsqueda en Wikipedia
-- Reproducción de videos en YouTube
-- Apertura de páginas web
-- Consulta de hora y fecha
-- Chistes automáticos
+- Reconocimiento de voz  
+- Síntesis de voz  
+- Búsqueda en Wikipedia  
+- Reproducción en YouTube  
+- Apertura de páginas web  
+- Consulta de hora  
+
+---
 
 ## Tecnologías
 
-- Python
-- speech_recognition
-- pyttsx3
-- pywhatkit
-- wikipedia
+Python · speech_recognition · pyttsx3 · pywhatkit · wikipedia
 
-## Cómo ejecutarlo
+---
 
-1. Instalar dependencias:
-pip install -r requirements.txt
+## Descripción técnica
 
-2. Ejecutar:
-python asistente_virtual.py
+El sistema captura audio desde el micrófono, convierte la voz a texto, procesa el comando y ejecuta la acción correspondiente, generando una respuesta mediante síntesis de voz.
 
-## Notas
+---
 
-Este proyecto fue desarrollado como práctica de integración de librerías en Python.
+## Autor
 
-## Demo
-
-![Asistente](asistente.png)
+Aiko Marín
