@@ -31,3 +31,7 @@ python asistente_virtual.py
 ## Notas
 
 Este proyecto fue desarrollado como práctica de integración de librerías en Python.
+
+## Demo
+
+![Asistente](asistente.png)
